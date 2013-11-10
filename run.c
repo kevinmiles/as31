@@ -164,4 +164,3 @@ void mesg_f(const char *fmt, ...)
     vsnprintf(buf, sizeof(buf), fmt, args);
     mesg(buf);
 }
-
