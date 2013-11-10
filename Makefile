@@ -7,8 +7,5 @@ all: $(SOURCES)
 parser.c:
 	bison -d -o parser.c parser.y
 
-install:
-	install -m 0755 as31 /usr/local/bin
-
 clean:
 	rm as31 parser.h parser.c
